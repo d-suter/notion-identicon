@@ -65,7 +65,7 @@ export default function Home() {
     <div className="min-h-screen bg-gradient-to-b from-gray-50 to-gray-100 dark:from-gray-900 dark:to-gray-800 py-12">
       <div className="container mx-auto px-4">
         <div className="max-w-5xl mx-auto">
-          <h1 className="text-5xl font-extrabold text-center mb-3 tracking-tight">Avatar Generator</h1>
+          <h1 className="text-5xl font-extrabold text-center mb-3 tracking-tight">Notion Avatar Generator</h1>
           <p className="text-muted-foreground text-center mb-10 text-lg">
             Generate unique avatars from any text input instantly.
           </p>
