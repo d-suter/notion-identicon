@@ -6,7 +6,7 @@ export async function GET(request: NextRequest) {
   const text = searchParams.get('text') || 'default';
 
   try {
-    const pngBuffer = await generatePngAvatar(text, 420); // Fixed size
+    const pngBuffer = await generatePngAvatar(text, 1200); // Fixed size
 
     return new Response(pngBuffer, {
       headers: {
